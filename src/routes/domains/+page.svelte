@@ -1,0 +1,1 @@
+<h1>Hi, this is domain page</h1>
