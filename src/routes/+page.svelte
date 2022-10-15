@@ -8,7 +8,6 @@
 </script>
 
 <main>
-    <h1>Hi, this is homepage</h1>
     <!-- hero -->
     <Hero />
     <!-- catagories -->
@@ -24,4 +23,20 @@
 </main>
 
 
-<style></style>
+<style global>
+    * {
+        text-transform: uppercase;
+        background-color: #FEFAE0;
+        /* overflow: hidden; */
+    }
+
+    * {
+        scroll-behavior: smooth;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+
+</style>
