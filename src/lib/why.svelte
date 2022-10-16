@@ -38,9 +38,9 @@
 		width: 150px;
 	}
 
-    * {
+    /* * {
         font-family: 'inter';
-    }
+    } */
 
     .item {
         display: flex;

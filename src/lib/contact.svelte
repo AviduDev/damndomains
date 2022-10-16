@@ -1,5 +1,5 @@
 <section>
-	<div class="container">
+	<div id="end" class="container">
 		<h2>still got question?</h2>
 		<button>contact</button>
 	</div>
@@ -7,9 +7,7 @@
 
 <style>
 
-    * {
-        font-family: 'inter';
-    }
+ 
 
 	.container {
 		display: flex;

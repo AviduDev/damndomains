@@ -38,9 +38,9 @@
 
 <style>
 
-	* {
+	/* * {
 		font-family: 'inter';
-	}
+	} */
 	.item {
 		background-color: #fff;
 		border: solid black 3px;

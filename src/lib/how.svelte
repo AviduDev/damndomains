@@ -25,9 +25,9 @@
 
 <style>
 
-    * {
+    /* * {
         font-family: 'inter';
-    }
+    } */
     img {
         width: 30px;
         height: 30px;

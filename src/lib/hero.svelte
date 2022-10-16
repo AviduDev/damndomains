@@ -16,9 +16,9 @@
 
 <style>
 	
-	* {
+	/* * {
         font-family: 'inter';
-    }
+    } */
 	
 	h1 {
 		font-size: 10vw;

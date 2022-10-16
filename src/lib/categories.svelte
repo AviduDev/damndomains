@@ -30,9 +30,9 @@
 </section>
 
 <style>
-	* {
+	/* * {
 		font-family: 'inter';
-	}
+	} */
 
     * {
         scroll-behavior: smooth;
