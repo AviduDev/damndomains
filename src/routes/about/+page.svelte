@@ -8,14 +8,14 @@
 		<h1>who we are</h1>
 		<!-- title -->
 		<!-- description -->
-		<p>
+		<p class="description">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet soluta rem velit. Mollitia ea
 			est rem voluptatem placeat iste veniam.
 		</p>
 	</section>
 	<!-- our approach -->
 	<section>
-		<div>
+		<div class="item">
 			<h2>our approach</h2>
 			<p>
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, sequi cum? Quam fugiat
@@ -25,7 +25,7 @@
 	</section>
 	<!-- our values -->
 	<section>
-		<div>
+		<div class="item">
 			<h2>our values</h2>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic totam quasi temporibus
@@ -34,9 +34,9 @@
 		</div>
 	</section>
 	<!-- our team -->
-	<section>
+	<section class="team-sec">
 		<h2>our team</h2>
-		<div>
+		<div class="item">
 			<img class="user-icon" src="user.svg" alt="name of the user" />
 			<p><b>Avidu</b></p>
 			<p>position</p>
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 	</section>
-	<Team />
+	<!-- <Team /> -->
 	<!-- link to contact -->
 	<Contact />
 </main>
@@ -67,5 +67,51 @@
 	}
 	.social-icon {
 		width: 50px;
+	}
+
+	h1 {
+		text-align: center;
+		font-weight: 900;
+		padding: 5vw;
+		border: solid black 3px;
+		border-radius: 10px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+	main {
+		background-color: #FEFAE0;
+	}
+
+	.description {
+		background-color: #C4FFF9;
+	}
+
+	.item, .description {
+		background-color: #C4FFF9;
+		margin: 20px 0 0 0;
+		border: solid black 2px;
+		border-radius: 10px;
+		padding: 3vw;
+	}
+
+	.item h2 {
+		text-align: left;
+		margin: 0 0 20px 0;
+	}
+
+	.team-sec {
+		background-color: #FFEB80;
+		border: solid black 3px;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 20px 0 0 0;
+	}
+
+	.item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 </style>
